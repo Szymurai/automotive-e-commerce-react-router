@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/automotive-e-commerce-react-router/precache-manifest.64fa38c73460449fca9807d6a0a50a75.js"
+  "/automotive-e-commerce-react-router/precache-manifest.72b734db0ea3b37b457f587c2404dc73.js"
 );
 
 workbox.clientsClaim();

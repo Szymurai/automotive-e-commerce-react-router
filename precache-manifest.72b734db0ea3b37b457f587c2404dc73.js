@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8601b37df89a8a27ec3f",
+    "revision": "16ba1c9d5b4468de0b09",
     "url": "/automotive-e-commerce-react-router/static/css/main.5806fc0c.chunk.css"
   },
   {
-    "revision": "8601b37df89a8a27ec3f",
-    "url": "/automotive-e-commerce-react-router/static/js/main.9d557b22.chunk.js"
+    "revision": "16ba1c9d5b4468de0b09",
+    "url": "/automotive-e-commerce-react-router/static/js/main.86c6569a.chunk.js"
   },
   {
     "revision": "d56e1ee94eeca5a7ac69",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/automotive-e-commerce-react-router/static/media/image4.72879832.webp"
   },
   {
-    "revision": "e87c15de5e49511d6167580347cfcfd8",
+    "revision": "672315a70dc0bf5103cde18ae97460f8",
     "url": "/automotive-e-commerce-react-router/index.html"
   }
 ];

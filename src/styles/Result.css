@@ -1,0 +1,68 @@
+.partImg {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 20px;
+}
+
+.image {
+  display: block;
+  height: 200px;
+  width: 400px;
+  margin: 36px auto 36px auto;
+}
+
+.partName {
+  /* font-size: 14px; */
+  margin-top: 16px;
+}
+
+.result h4 {
+  margin-top: 16px;
+  margin-bottom: 24px;
+  color: #2b2a29;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.table {
+  margin: 39px auto 56px auto;
+  border: 2px solid #2b2a29;
+  padding: 24px 32px 16px 32px;
+  width: 330px;
+  border-radius: 20px;
+}
+
+.tableContent {
+  margin-bottom: 24px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid #2b2a29;
+  position: relative;
+}
+
+.tableContent p {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.cartButton {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 30px;
+  /* margin-top: 30px; */
+  margin-bottom: 36px;
+  border: rgb(180, 50, 54) 2px solid;
+  background-color: rgb(180, 50, 54);
+  border-radius: 20px;
+  font-size: 22px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.cartButton:hover {
+  background-color: #3e724e;
+  border-color: #3e724e;
+  /* color: #ccc; */
+}

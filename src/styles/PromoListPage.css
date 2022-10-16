@@ -1,0 +1,32 @@
+.coupons {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.coupons h3 {
+  margin-bottom: 24px;
+}
+
+.coupons a {
+  width: 29vw;
+  display: inline-block;
+  text-decoration: none;
+  padding: 14px 46px 14px 46px;
+  border: 2px solid #2b2a29;
+  border-radius: 20px;
+  color: #2b2a29;
+  margin: 19px 0 19px 0;
+  transition: 0.4s;
+}
+.coupons p {
+  display: inline-block;
+}
+.couponsIcon {
+  padding-right: 24px;
+}
+
+.coupons a:hover {
+  color: #e31e24;
+  border-color: #e31e24;
+  transform: translateX(10px);
+}

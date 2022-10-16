@@ -1,0 +1,42 @@
+.contact {
+  text-align: center;
+}
+
+.contact textarea {
+  font-size: 18px;
+  width: 80%;
+  min-height: 20vw;
+  margin: 20px auto;
+  display: block;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+  resize: none;
+  transition: 0.4s;
+}
+
+.contact textarea:focus {
+  outline-color: #e31e24 !important;
+}
+
+.contact textarea:focus::placeholder {
+  color: #e31e24;
+}
+
+.contact button {
+  padding: 10px 30px;
+  margin-top: 30px;
+  border: rgb(180, 50, 54) 2px solid;
+  background-color: rgb(180, 50, 54);
+  border-radius: 20px;
+  font-size: 22px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.contact button:hover {
+  background-color: #3e724e;
+  border-color: #3e724e;
+  /* color: #ccc; */
+}

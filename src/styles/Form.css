@@ -1,0 +1,59 @@
+label {
+  position: relative;
+  top: 24px;
+}
+
+/* .triangleContener {
+  position: abso;
+} */
+input[type="text"].katalog {
+  padding: 10px 30px;
+  border: #2b2a29 2px solid;
+  border-radius: 20px;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+  color: #2b2a29;
+  margin-bottom: 16px;
+  transition: 0.4s;
+}
+
+.katalog:focus {
+  border-color: #e31e24 !important;
+}
+
+input:focus::placeholder {
+  color: #e31e24;
+}
+
+.triangle {
+  position: absolute;
+  background-color: #e31e24;
+  text-align: left;
+  top: 9px;
+  left: -175px;
+}
+.triangle:before,
+.triangle:after {
+  content: "";
+  position: absolute;
+  background-color: inherit;
+}
+.triangle,
+.triangle:before,
+.triangle:after {
+  width: 25px;
+  height: 25px;
+  border-top-right-radius: 30%;
+}
+
+.triangle {
+  transform: rotate(30deg) skewX(-30deg) scale(1, 0.866);
+}
+.triangle:before {
+  transform: rotate(-135deg) skewX(-45deg) scale(1.414, 0.707)
+    translate(0, -50%);
+}
+.triangle:after {
+  transform: rotate(135deg) skewY(-45deg) scale(0.707, 1.414) translate(50%);
+}
